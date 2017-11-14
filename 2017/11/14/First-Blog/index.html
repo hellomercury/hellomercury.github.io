@@ -181,7 +181,21 @@
             </div>
         </div>
         <div class="col-md-8 col-md-offset-2">
-      		<p>余阳是个大蠢货。</p>
+      		<script src="/assets/js/APlayer.min.js"> </script><div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
+		<script>
+			new APlayer({
+				element: document.getElementById("aplayer0"),
+				narrow: false,
+				autoplay: false,
+				showlrc: 0,
+				music: {
+					title: "HUSH",
+					author: "Lasse Lindh",
+					url: "http://opj0cbfmf.bkt.clouddn.com/Part.3%20Lasse%20Lindh%20-%20Hush.mp3",
+					pic: "http://opj0cbfmf.bkt.clouddn.com/hush.jpg",
+				}
+			});
+		</script>
 
             <div class="clearfix"></div>
             <hr class="nogutter">
