@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh-Hans">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Diary," />
 
 
 
@@ -80,13 +80,14 @@
 
 
 <meta name="description" content="我的第一篇博客 历经了一周的时间，我在github上搭建的第一个博客算是基本完工了，不过还需要很多完善的工作。比如说评论，数据统计等等功能都还没有。不过绑定了域名，有了主题，有了内容，虽然主题是拉取的别人的主题，内容只是自己的只言片语。但是shenzhaonan.cn从现在起就成了我的个人日记了。欢迎大家有空来坐坐，等到评论功能开了之后也欢迎大家来聊聊，随便聊。 记下第一篇日记最近一周每天提前4">
+<meta name="keywords" content="Diary">
 <meta property="og:type" content="article">
 <meta property="og:title" content="我的第一篇博客">
 <meta property="og:url" content="http://yoursite.com/2017/11/14/First-Blog/index.html">
 <meta property="og:site_name" content="行悟卧忆">
 <meta property="og:description" content="我的第一篇博客 历经了一周的时间，我在github上搭建的第一个博客算是基本完工了，不过还需要很多完善的工作。比如说评论，数据统计等等功能都还没有。不过绑定了域名，有了主题，有了内容，虽然主题是拉取的别人的主题，内容只是自己的只言片语。但是shenzhaonan.cn从现在起就成了我的个人日记了。欢迎大家有空来坐坐，等到评论功能开了之后也欢迎大家来聊聊，随便聊。 记下第一篇日记最近一周每天提前4">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-11-16T17:10:07.869Z">
+<meta property="og:updated_time" content="2017-11-18T16:36:10.144Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="我的第一篇博客">
 <meta name="twitter:description" content="我的第一篇博客 历经了一周的时间，我在github上搭建的第一个博客算是基本完工了，不过还需要很多完善的工作。比如说评论，数据统计等等功能都还没有。不过绑定了域名，有了主题，有了内容，虽然主题是拉取的别人的主题，内容只是自己的只言片语。但是shenzhaonan.cn从现在起就成了我的个人日记了。欢迎大家有空来坐坐，等到评论功能开了之后也欢迎大家来聊聊，随便聊。 记下第一篇日记最近一周每天提前4">
@@ -97,7 +98,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Mist',
     version: '5.1.3',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -138,8 +139,6 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
-
-  <a href="https://github.com/hellomercury"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/8b6b8ccc6da3aa5722903da7b58eb5ab1081adee/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_orange_ff7600.png"></a>
 
   
   
@@ -192,12 +191,52 @@
         </li>
       
         
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
             归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
           </a>
         </li>
       
@@ -274,6 +313,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Self/" itemprop="url" rel="index">
+                    <span itemprop="name">Self</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -307,7 +368,7 @@
 <p>今天听罗胖讲的逻辑思维里说道自由是对本心的把握，不能说他讲的有多好吧，毕竟我现在做事的时候很难做到专心，总是神游。但是最近真的很喜欢那句：唯心而已。但愿自己能成长的可以做到世间万物，唯心而已。</p>
 <p>以上，今天心情真的有点不美妙，好像一天都不是很顺利，比如念念不忘没有回响，又比如好心办了坏事，再比如意识到了要面对但是还是不知道要怎么处理。</p>
 <p>嗯，以今天看到的一个标题结尾，标题名字叫：我27岁了，还是个孩子，请问孩子怎么生孩子。来自微信公众号东七门。ps：内容我没看，只是觉得这个标题很好玩。下面这首歌不知道为啥，虽然歌词我听不懂，但是我每次听到都很喜欢，本来准备插入<strong>《借我》</strong>这首歌的，但是这首歌有版权限制，我没找到外链。</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=579954&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=579954&auto=0&height=66"></iframe>
 
       
     </div>
@@ -322,6 +383,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Diary/" rel="tag"># Diary</a>
+          
+        </div>
       
 
       
@@ -408,7 +475,25 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
             
 
           </nav>
@@ -478,7 +563,7 @@
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.3</div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.3</div>
 
 
 
@@ -621,8 +706,6 @@
 
 
 
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
 
 
 
@@ -647,5 +730,7 @@
 
   
 
+
+  <a href="https://github.com/hellomercury"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/8b6b8ccc6da3aa5722903da7b58eb5ab1081adee/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_orange_ff7600.png"></a>
 </body>
 </html>
